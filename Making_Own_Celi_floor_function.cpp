@@ -12,8 +12,9 @@ int main(){
 }
 
 int celi(float x){
-    return int(x);
+    return int(x)+1;
+    
 }
 int floor(float x){
-    return int(x)+1;
+    return int(x);
 }
